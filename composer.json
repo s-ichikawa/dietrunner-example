@@ -1,11 +1,5 @@
 {
   "name": "s-ichikawa/dietrunner-example",
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../dietrunner"
-    }
-  ],
   "require": {
     "s-ichikawa/dietrunner": "dev-main"
   },

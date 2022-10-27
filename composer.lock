@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "769565a57fa367b48f0fcc24afb28510",
+    "content-hash": "8ac5e0f14a675bafa3d72d3789645719",
     "packages": [
         {
             "name": "composer/semver",
@@ -686,10 +686,16 @@
         {
             "name": "s-ichikawa/dietrunner",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/s-ichikawa/dietrunner.git",
+                "reference": "8974ac8bbcba0e4720d5068d05dabcd9e2aa31fa"
+            },
             "dist": {
-                "type": "path",
-                "url": "../dietrunner",
-                "reference": "37c27d600f1582b73316eefbedba48cd794bdb45"
+                "type": "zip",
+                "url": "https://api.github.com/repos/s-ichikawa/dietrunner/zipball/8974ac8bbcba0e4720d5068d05dabcd9e2aa31fa",
+                "reference": "8974ac8bbcba0e4720d5068d05dabcd9e2aa31fa",
+                "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^3.2",
@@ -702,19 +708,29 @@
                 "symfony/event-dispatcher": "^6.1",
                 "twig/twig": "^3.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Sichikawa\\Dietrunner\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "fitcube",
-            "transport-options": {
-                "relative": true
-            }
+            "authors": [
+                {
+                    "name": "shingo.ichikawa",
+                    "email": "ichikawa.shingo.0829@gmail.com"
+                }
+            ],
+            "description": "DietRunner runs applications compatible with Dietcube by using RoadRunner",
+            "support": {
+                "issues": "https://github.com/s-ichikawa/dietrunner/issues",
+                "source": "https://github.com/s-ichikawa/dietrunner/tree/main"
+            },
+            "time": "2022-10-27T14:27:53+00:00"
         },
         {
             "name": "spiral/core",
